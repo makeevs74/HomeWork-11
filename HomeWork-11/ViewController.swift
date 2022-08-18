@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonSignUp: UIButton!
     @IBOutlet weak var viewWallpaper: UIImageView!
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
