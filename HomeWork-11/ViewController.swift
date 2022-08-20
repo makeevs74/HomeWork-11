@@ -45,8 +45,6 @@ class ViewController: UIViewController {
         button.layer.shouldRasterize = true
         button.layer.rasterizationScale = UIScreen.main.scale
     }
-
-
 }
 
 extension UITextField {
