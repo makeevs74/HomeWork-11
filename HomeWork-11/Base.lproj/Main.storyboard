@@ -31,7 +31,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="o5D-kM-cUE" userLabel="Stack Login Password">
                                 <rect key="frame" x="97" y="158.66666666666666" width="220" height="89"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="keanureeves01" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iLg-zn-f8f">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="keanureeves01" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="iLg-zn-f8f">
                                         <rect key="frame" x="0.0" y="0.0" width="220" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="LSx-Ti-J0M" userLabel="height = 40"/>
@@ -40,14 +40,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E75-Tj-gJJ">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="E75-Tj-gJJ">
                                         <rect key="frame" x="0.0" y="54" width="220" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="pnX-Wd-e4l" userLabel="height = 40"/>
                                         </constraints>
                                         <color key="textColor" systemColor="systemIndigoColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                                 <constraints>
